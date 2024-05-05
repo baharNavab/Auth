@@ -1,0 +1,84 @@
+body {
+    background-image: linear-gradient(#3a6186, #89253e);
+    min-height: 100vh;
+}
+
+.appContainer {
+    width: 75%;
+    margin: auto;
+}
+
+.container {
+    background-color: #ddd;
+    padding: 0;
+}
+
+.navbar {
+    width: 100%;
+}
+
+.homeContainer {
+    display: flex;
+    min-height: 90vh;
+}
+
+.leftSide {
+    flex: 0.7;
+    display: flex;
+    flex-direction: column;
+}
+
+.myCarousel {
+    background-image: linear-gradient(to right bottom, rgb(54, 54, 54), black);
+}
+
+.recentBooks {
+    min-height: 200px;
+
+    padding: 10px;
+}
+
+
+.myPagination {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.rightSide {
+    background-color: rosybrown;
+    flex: 0.3;
+}
+
+.bahicard {
+    display: flex;
+}
+
+.bahiImage {
+    flex: 0.5;
+    padding: 5px;
+}
+
+.myImage {
+    height: 100%;
+    width: 100%;
+}
+
+.bahiText {
+    flex: 1;
+}
+
+.myHeartButton {
+    height: 2.5rem;
+    width: 2.5rem;
+    border-radius: 50%;
+    background-color: transparent;
+    border: transparent;
+    font-size: 2rem;
+    color: gray;
+    vertical-align: middle;
+}
+
+.readButton {
+    margin-top: 10px;
+}
